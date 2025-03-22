@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="card shadow-lg rounded">
+            <div class="card-header bg-light text-center">
+                <h5 class="text-secondary">Cadastrar Produtos</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome do Produto</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite o nome do produto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="preco" class="form-label">Preço</label>
+                        <input type="number" class="form-control" id="preco" placeholder="Digite o preço" step="0.01">
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantidade" class="form-label">Quantidade</label>
+                        <input type="number" class="form-control" id="quantidade" placeholder="Digite a quantidade">
+                    </div>
+                    <div class="mb-3">
+                        <label for="categoria" class="form-label">Categoria</label>
+                        <select class="form-select" id="categoria">
+                            <option selected disabled>Selecione uma categoria</option>
+                            <option value="eletronicos">Eletrônicos</option>
+                            <option value="vestuario">Vestuário</option>
+                            <option value="alimentos">Alimentos</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Realizar Cadastro</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
